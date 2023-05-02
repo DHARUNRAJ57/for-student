@@ -11,6 +11,7 @@ import { CourseComponent } from './student/course/course.component';
 import { DashboardComponent } from './student/dashboard/dashboard.component';
 import { InternshipComponent } from './student/internship/internship.component';
 import { CsecyComponent } from './student/course/csecy/csecy.component';
+import { EceComponent } from './student/course/ece/ece.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CsecyComponent } from './student/course/csecy/csecy.component';
     CourseComponent,
        DashboardComponent,
        InternshipComponent,
-       CsecyComponent
+       CsecyComponent,
+       EceComponent
   ],
   imports: [
     BrowserModule,

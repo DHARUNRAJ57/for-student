@@ -97,3 +97,6 @@ p.excerpt{
   color: #000;
   font-weight: 400;
 }
+.title h1{
+  font-size: 4rem;
+}

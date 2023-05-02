@@ -10,7 +10,6 @@ import { CsecyComponent } from './student/course/csecy/csecy.component';
 
 const routes: Routes = [
   {path:"", component: LoginComponent},
-
   {path:"student", component: StudentComponent,
         children: [
           { path: '', component: DashboardComponent},
