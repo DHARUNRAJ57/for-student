@@ -12,6 +12,17 @@ import { DashboardComponent } from './student/dashboard/dashboard.component';
 import { InternshipComponent } from './student/internship/internship.component';
 import { CsecyComponent } from './student/course/csecy/csecy.component';
 import { EceComponent } from './student/course/ece/ece.component';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule} from '@angular/common/http'
+import { Router } from '@angular/router';
+import { RegisterComponent } from './register/register.component';
+
+const routes:Routes = [
+
+ 
+]
+
 
 @NgModule({
   declarations: [
@@ -24,11 +35,16 @@ import { EceComponent } from './student/course/ece/ece.component';
        DashboardComponent,
        InternshipComponent,
        CsecyComponent,
-       EceComponent
+       EceComponent,
+       RegisterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    RouterModule.forRoot(routes),
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
