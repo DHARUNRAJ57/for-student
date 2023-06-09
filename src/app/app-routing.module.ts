@@ -7,6 +7,8 @@ import { InternshipComponent } from './student/internship/internship.component';
 import { StudentComponent } from './student/student.component';
 import { CsecyComponent } from './student/course/csecy/csecy.component';
 import { RegisterComponent } from './register/register.component';
+import { EceComponent } from './student/course/ece/ece.component';
+import { ItComponent } from './student/course/it/it.component';
 
 
 const routes: Routes = [
@@ -18,12 +20,14 @@ const routes: Routes = [
           { path: 'dashboard', component: DashboardComponent},
           { path: 'course', component: CourseComponent},
           {path: 'coursecsecy', component:CsecyComponent},
+          {path: 'courseit', component:ItComponent},
+          {path: 'courseece', component:EceComponent},
           {path:'internship',component:InternshipComponent},
           {path:"login", component: LoginComponent},
-         
+
           ],},
-    
-   
+
+
   ];
 
 

@@ -17,6 +17,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http'
 import { Router } from '@angular/router';
 import { RegisterComponent } from './register/register.component';
+import { ItComponent } from './student/course/it/it.component';
 
 const routes:Routes = [
 
@@ -36,7 +37,8 @@ const routes:Routes = [
        InternshipComponent,
        CsecyComponent,
        EceComponent,
-       RegisterComponent
+       RegisterComponent,
+       ItComponent
   ],
   imports: [
     BrowserModule,
